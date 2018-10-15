@@ -1,5 +1,6 @@
-
 #php ethereum transaction monitoring
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsuntechsoft%2Fzumpay-dmt-monitoring.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsuntechsoft%2Fzumpay-dmt-monitoring?ref=badge_shield)
+
 
 
 all scripts work with Redis list and put result to own list to next processing
@@ -26,3 +27,6 @@ all scripts work with Redis list and put result to own list to next processing
  
      'host' => parse_url(getenv('ETHEREUM_NODE_URL'))['host'] ?? null,
  
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsuntechsoft%2Fzumpay-dmt-monitoring.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsuntechsoft%2Fzumpay-dmt-monitoring?ref=badge_large)
